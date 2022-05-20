@@ -1,0 +1,97 @@
+{
+	"basics": {
+		"name": "Khldoon Alhassoun",
+		"label": "Web Developer",
+		"email": "Khldoon1997@gmail.com",
+		"phone": "(XXX) XXX-XXXX",
+		"picture": "profile.jepg",
+		"x_title": "Hello, I'm",
+		"job1": "UX-Designer",
+		"job2": "Frontend Developer",
+		"description": "Hello! I'm Khldoon Alhassoun! Your web ux-designer and fronteend development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+		"summary": "based in Umeå, Sweden.",
+		"keywords": "personal,website,portfolio,template,kit,Khldoon,Alhassoun,Umeå,webdev,web,developer,Sweden,react,github,linkedin,google,gitlab,material,ux-design,ui,webapp",
+		"url": "https://taniyow.vercel.app/",
+		"location": {
+			"address": "XX XXXXXstreet",
+			"postalCode": "XXXXX",
+			"city": "Umeå",
+			"country": "Sweden",
+			"countryCode": "SE",
+			"region": "Västerbotten"
+		},
+		"profiles": [
+			{
+				"network": "Google",
+				"username": "khldoon1997@gmail.com",
+				"url": "https://mail.google.com/mail/?view=cm&source=mailto&to=khldoon1997@gmail.com",
+				"x_icon": "fab fa-google"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "Khldoon Alhassoun",
+				"url": "https://www.linkedin.com/in/khldoon-alhassoun-0b2778173/",
+				"x_icon": "fab fa-linkedin-in"
+			},
+			{
+				"network": "GitHub",
+				"username": "KhldoonAlhassoun",
+				"url": "https://github.com/KhldoonAlhassoun",
+				"x_icon": "fab fa-github"
+			},
+
+			{
+				"network": "Discord",
+				"username": "Dust_Rider#8946",
+				"url": "https://discord.com",
+				"x_icon": "fab fa-discord"
+			}
+		]
+	},
+
+	"education": [
+		{
+			"institution": "University",
+			"area": "Software Development",
+			"studyType": "Master",
+			"startDate": "2018-09-07",
+			"endDate": "2023-06-07",
+			"gpa": "4.0",
+			"courses": ["Meny"]
+		}
+	],
+
+	"skills": [
+		{
+			"name": "Web Development",
+			"level": "Master",
+			"keywords": ["HTML", "CSS", "Javascript"]
+		}
+	],
+	"languages": [
+		{
+			"language": "Arabic",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "Swedish",
+			"fluency": "Fluent speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "Fluent speaker"
+		}
+	],
+	"interests": [
+		{
+			"name": "Sport",
+			"keywords": ["Football", "Squash"]
+		}
+	],
+	"references": [
+		{
+			"name": "Thomas Mejtoft ",
+			"reference": "Reference..."
+		}
+	]
+}
