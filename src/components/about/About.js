@@ -20,8 +20,11 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
 	const classes = useStyles();
 	const greetings = "Hello there!";
-	const aboutme = `I'm ${FirstName} ${LastName}, currently studying MSc program in Interaction Technology and Design at Umeå University. Over the past four years, a have been expanding my knowledge about software engineering and interaction technology through different courses and many different projects. My goal aim is to build and design new user-friendly technology which can make a difference in our community and helps us in our daily life. Contact me through your preferred channel for more information.`;
-
+	const aboutme1 = `As a current student in the MSc program for Interaction Technology and Design at Umeå University, I have spent the past four years honing my knowledge of software engineering and interaction technology through various courses and challenging projects. My passion lies in designing and developing innovative, user-friendly technology that can make a meaningful impact in our community and enhance our daily lives.`;
+	const aboutme2 =
+		"My dedication to this field extends beyond the classroom, as I constantly seek out opportunities to learn and grow. With a keen eye for detail and a strong work ethic, I am committed to delivering exceptional results in every project I undertake.";
+	const aboutme3 =
+		"Whether you are seeking a skilled software engineer or a talented interaction designer, I am confident that I possess the skills and knowledge necessary to meet your needs. Please do not hesitate to contact me through your preferred channel for further information. I look forward to hearing from you.";
 	return (
 		<section id="about">
 			<Container component="main" className={classes.main} maxWidth="md">
@@ -39,12 +42,14 @@ export const About = () => {
 						<Typography component="h2" variant="h5">
 							<TextDecrypt text={`${greetings}`} />
 						</Typography>
-						<p className="aboutme">{aboutme}</p>
+						<p className="aboutme">{aboutme1}</p>
+						<p className="aboutme">{aboutme2}</p>
+						<p className="aboutme3">{aboutme3}</p>
 						<a href="#contact" className="contact-btn">
 							<i className="fas fa-terminal"></i>
 							<Typography component="span">
 								{" "}
-								Send me a message.
+								Send me a message
 							</Typography>
 						</a>
 					</div>

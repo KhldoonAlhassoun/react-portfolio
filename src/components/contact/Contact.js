@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import { useRef } from "react";
 import { Container, Typography, TextField, Button } from "@material-ui/core";
@@ -14,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
 	main: {
 		maxWidth: "100vw",
 		marginTop: "3em",
-		marginBottom: "3em",
+		marginBottom: "5em",
 	},
 	form: {
 		width: "100%",
