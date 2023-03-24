@@ -22,7 +22,7 @@ export const ThemeProvider = ({ children }) => {
 		return window.matchMedia("(prefers-color-scheme: dark)").matches;
 	};
 
-	const [theme, setTheme] = useState(getInitialMode() ? "dark" : "light");
+	const [theme, setTheme] = useState(getInitialMode() ? "dark" : "dark");
 
 	const toggleTheme = () => {
 		if (theme === "light") {
@@ -44,9 +44,7 @@ export const ThemeProvider = ({ children }) => {
 				toggleTheme,
 			}}
 		>
-			<MuiThemeProvider
-				theme={theme === "light" ? LightTheme : DarkTheme}
-			>
+			<MuiThemeProvider theme={theme === "dark" ? DarkTheme : DarkTheme}>
 				{children}
 			</MuiThemeProvider>
 		</ThemeContext.Provider>
