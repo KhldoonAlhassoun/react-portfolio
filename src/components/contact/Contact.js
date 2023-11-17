@@ -33,20 +33,26 @@ export const Contact = () => {
 	const sendEmail = (e) => {
 		e.preventDefault();
 
-		emailjs.sendForm("", "", form.current, "").then(
-			(result) => {
-				console.log(result.text);
-			},
-			(error) => {
-				console.log(error.text);
-			}
-		);
+		emailjs
+			.sendForm(
+				"service_urew76o",
+				"template_za26d7r",
+				form.current,
+				"_Pmx30yLwGS52CJPN"
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
 		Swal.fire({
 			position: "center",
 			icon: "success",
-			title: "Your work has been saved",
-			showConfirmButton: false,
-			timer: 1500,
+			title: "Your message has been sent",
+			showConfirmButton: true,
 		});
 		e.target.reset();
 	};
@@ -62,7 +68,7 @@ export const Contact = () => {
 							className={classes.form}
 						>
 							<TextField
-								id="outlined-name-input"
+								id="name"
 								label="Name"
 								type="text"
 								size="small"
@@ -71,7 +77,7 @@ export const Contact = () => {
 								className={classes.formfield}
 							/>
 							<TextField
-								id="outlined-password-input"
+								id="email_id"
 								label="Email"
 								type="email"
 								size="small"
@@ -80,7 +86,7 @@ export const Contact = () => {
 								className={classes.formfield}
 							/>
 							<TextField
-								id="outlined-password-input"
+								id="message"
 								label="Message"
 								type="textarea"
 								size="small"

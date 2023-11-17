@@ -3,7 +3,7 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import { useState } from "react";
-
+import { Link as ScrollLink } from "react-scroll";
 import "./SideNavbar.css";
 
 export const SideNavbar = () => {
@@ -11,34 +11,47 @@ export const SideNavbar = () => {
 
 	return (
 		<nav>
-			<a
-				href="#"
-				onClick={() => setActiveNav("#")}
-				className={activeNav === "#" ? "active" : ""}
+			<ScrollLink
+				to="home"
+				smooth={false}
+				onClick={() => setActiveNav("/")}
+				className={activeNav === "/" ? "active nav-link" : "nav-link"}
 			>
 				<Typography>Home</Typography>
-			</a>
-			<a
-				href="#works"
-				onClick={() => setActiveNav("#works")}
-				className={activeNav === "#works" ? "active" : ""}
+			</ScrollLink>
+			<ScrollLink
+				to="works"
+				smooth={false}
+				onClick={() => setActiveNav("/works")}
+				className={
+					activeNav === "/works" ? "active nav-link" : "nav-link"
+				}
 			>
 				<Typography>Projects</Typography>
-			</a>
-			<a
-				href="#about"
-				onClick={() => setActiveNav("#about")}
-				className={activeNav === "#about" ? "active" : ""}
+			</ScrollLink>
+			<ScrollLink
+				to="about"
+				smooth={false}
+				onClick={() => setActiveNav("/about")}
+				className={
+					activeNav === "/about" ? "active nav-link" : "nav-link"
+				}
 			>
 				<Typography>About</Typography>
-			</a>
-			<a
-				href="#contact"
-				onClick={() => setActiveNav("#contact")}
-				className={activeNav === "#contact" ? "active" : ""}
+			</ScrollLink>
+			<ScrollLink
+				to="contact"
+				smooth={false}
+				onClick={() => setActiveNav("/contact")}
+				className={
+					activeNav === "/about" ? "active nav-link" : "nav-link"
+				}
 			>
-				<Typography>Contact</Typography>
-			</a>
+				<Typography>Connect</Typography>
+			</ScrollLink>
+			{/* For navigation to other pages, use the Link component from react-router-dom */}
+
+			{/* ... other links */}
 		</nav>
 	);
 };

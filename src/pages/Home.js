@@ -11,6 +11,7 @@ import { SideNavbar } from "../components/nav/SideNavbar";
 import { Works } from "../components/works/Works";
 import { About } from "../components/about/About";
 import { Contact } from "../components/contact/Contact";
+import { Element } from "react-scroll";
 
 const useStyles = makeStyles(() => ({
 	root: {
@@ -37,9 +38,15 @@ export const Home = () => {
 				</Hidden>
 			</div>
 			<SideNavbar />
-			<Works />
-			<About />
-			<Contact />
+			<Element name="works">
+				<Works />
+			</Element>
+			<Element name="about">
+				<About />
+			</Element>
+			<Element name="contact">
+				<Contact />
+			</Element>
 		</>
 	);
 };

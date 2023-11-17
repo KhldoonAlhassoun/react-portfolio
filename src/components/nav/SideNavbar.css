@@ -6,16 +6,17 @@ nav {
 	top: 15%;
 	left: -6.5rem;
 }
-nav a {
+.nav-link {
 	margin-right: 20px;
 	text-decoration: none;
 	color: #726f6f;
 }
-nav a:hover {
+.nav-link:hover {
 	margin-right: 20px;
 	text-decoration: none;
 	color: #00bfbf;
+	cursor: pointer;
 }
-nav a.active {
+.nav-link.active {
 	color: #00bfbf;
 }

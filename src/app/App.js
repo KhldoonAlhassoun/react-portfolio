@@ -5,6 +5,7 @@ import { CssBaseline } from "@material-ui/core";
 import { logCredits } from "../utils/logCredits";
 
 import { Home } from "../pages/Home";
+import ProjectDetail from "../pages/ProjectDetail";
 
 import { PageNotFound } from "../pages/PageNotFound";
 
@@ -21,6 +22,10 @@ export const App = () => {
 				<HelmetMeta />
 				<Switch>
 					<Route path="/react-portfolio" exact component={Home} />
+					<Route
+						path="/project/:projectId"
+						component={ProjectDetail}
+					/>
 					{/* <Route path="/resume" component={Resume} /> */}
 					<Route path="*" component={PageNotFound} />
 				</Switch>
