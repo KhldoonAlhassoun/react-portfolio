@@ -1,7 +1,7 @@
 // ProjectDetail.js
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Container, Typography, Paper } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -69,7 +69,7 @@ const ProjectDetail = () => {
 		<div className={classes.root}>
 			<DisplacementSphere />
 			<LogoLink />
-			<Link to="/react-portfolio" className={classes.backButton}>
+			<Link to="/" className={classes.backButton}>
 				<IconButton>
 					<ArrowBack />
 				</IconButton>
@@ -109,8 +109,9 @@ const fetchProjectById = (projectId) => {
 		{
 			id: 1,
 			title: "BeatStar",
-			description:
+			description: [
 				"One of the projects that I am proud to have worked on...",
+			],
 			alter: "BeatStar",
 			image: `${beatStar}`,
 		},
