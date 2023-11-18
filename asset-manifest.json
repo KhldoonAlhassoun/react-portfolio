@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5830098b.css",
-    "main.js": "/react-portfolio/static/js/main.43f6b052.js",
-    "static/media/meetUp.png": "/react-portfolio/static/media/meetUp.56c632afbb05e69fe061.png",
-    "static/media/leddigajobb.png": "/react-portfolio/static/media/leddigajobb.13e0dd3a16dffb5af368.png",
-    "static/media/connectFour.png": "/react-portfolio/static/media/connectFour.7a3c9045b1694bf5720d.png",
-    "static/media/beatStar.png": "/react-portfolio/static/media/beatStar.612aefddc6ca05767e7b.png",
-    "static/media/profile.jpeg": "/react-portfolio/static/media/profile.5ea550a17ff1e639e4ad.jpeg",
-    "index.html": "/react-portfolio/index.html",
-    "static/media/slick.svg": "/react-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/react-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/react-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/react-portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "main.5830098b.css.map": "/react-portfolio/static/css/main.5830098b.css.map",
-    "main.43f6b052.js.map": "/react-portfolio/static/js/main.43f6b052.js.map"
+    "main.css": "/static/css/main.e3024f64.css",
+    "main.js": "/static/js/main.65858245.js",
+    "static/media/meetUp.png": "/static/media/meetUp.56c632afbb05e69fe061.png",
+    "static/media/leddigajobb.png": "/static/media/leddigajobb.13e0dd3a16dffb5af368.png",
+    "static/media/connectFour.png": "/static/media/connectFour.7a3c9045b1694bf5720d.png",
+    "static/media/beatStar.png": "/static/media/beatStar.612aefddc6ca05767e7b.png",
+    "static/media/profile.jpeg": "/static/media/profile.5ea550a17ff1e639e4ad.jpeg",
+    "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.e3024f64.css.map": "/static/css/main.e3024f64.css.map",
+    "main.65858245.js.map": "/static/js/main.65858245.js.map"
   },
   "entrypoints": [
-    "static/css/main.5830098b.css",
-    "static/js/main.43f6b052.js"
+    "static/css/main.e3024f64.css",
+    "static/js/main.65858245.js"
   ]
 }
