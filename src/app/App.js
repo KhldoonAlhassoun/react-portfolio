@@ -1,4 +1,4 @@
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HelmetMeta } from "./HelmetMeta";
 import { ThemeProvider } from "../components/theme/ThemeProvider";
 import { CssBaseline } from "@material-ui/core";
@@ -21,7 +21,7 @@ export const App = () => {
 			<Router>
 				<HelmetMeta />
 				<Switch>
-					<Route path="/" exact component={Home} />
+					<Route path="/react-portfolio" exact component={Home} />
 					<Route
 						path="/project/:projectId"
 						component={ProjectDetail}

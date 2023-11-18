@@ -1,8 +1,8 @@
 {
-	"name": "portfolio",
+	"name": "react-portfolio",
 	"version": "0.1.0",
-	"homepage": "http://KhldoonAlhassoun.github.io/",
-	"repository": "https://khldoonalhassoun.github.io/",
+	"homepage": "http://KhldoonAlhassoun.github.io/react-portfolio",
+	"repository": "https://khldoonalhassoun.github.io/react-portfolio/",
 	"author": "Khldoon Alhassoun <khldoon1997@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
