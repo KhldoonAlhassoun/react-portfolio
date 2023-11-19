@@ -26,8 +26,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const Contact = () => {
 	const classes = useStyles();
-	const greetings = "Let's get in touch";
-
+	const greetings = "Lets get in touch!";
 	const form = useRef();
 
 	const sendEmail = (e) => {
@@ -60,7 +59,10 @@ export const Contact = () => {
 	return (
 		<section id="contact">
 			<Container component="main" className={classes.main} maxWidth="md">
-				<div className="contact">
+				<div className="contact-container">
+					<h3 className="contact_msg">
+						<TextDecrypt className="greetings" text={greetings} />
+					</h3>
 					<div className="_form_wrapper">
 						<form
 							ref={form}
@@ -109,9 +111,6 @@ export const Contact = () => {
 							</button>
 						</form>
 					</div>
-					<h1 className="contact_msg">
-						<TextDecrypt className="greetings" text={greetings} />
-					</h1>
 				</div>
 			</Container>
 		</section>

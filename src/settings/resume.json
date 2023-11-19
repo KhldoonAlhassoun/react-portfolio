@@ -5,12 +5,12 @@
 		"email": "Khldoon1997@gmail.com",
 		"phone": "(XXX) XXX-XXXX",
 		"picture": "profile.jepg",
-		"x_title": "Hello, I'm",
+		"x_title": "Khldoon Alhassoun",
 		"job1": "UX-Designer",
 		"job2": "Frontend Developer",
-		"description": "Hello! I'm Khldoon Alhassoun! Your web ux-designer and fronteend development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+		"description": "Hello! I'm Khldoon Alhassoun! Your ux-designer and fronteend development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
 		"summary": "based in Umeå, Sweden.",
-		"keywords": "personal,website,portfolio,template,kit,Khldoon,Alhassoun,Umeå,webdev,web,developer,Sweden,react,github,linkedin,google,gitlab,material,ux-design,ui,webapp",
+		"keywords": "personal website , portfolio, Khldoon,Alhassoun, Umeå, web developer, Sweden, react, github, linkedin, google, , , ux-design, ui-designer , frontend developer, frontend, developer, javascript, html,",
 		"url": "https://khldoonalhassoun.github.io/react-portfolio/",
 		"location": {
 			"address": "XX XXXXXstreet",
@@ -51,11 +51,11 @@
 
 	"education": [
 		{
-			"institution": "University",
+			"institution": "Umeå University",
 			"area": "Software Development",
 			"studyType": "Master",
 			"startDate": "2018-09-07",
-			"endDate": "2023-06-07",
+			"endDate": "2024-01-07",
 			"gpa": "4.0",
 			"courses": ["Meny"]
 		}

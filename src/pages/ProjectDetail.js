@@ -69,7 +69,7 @@ const ProjectDetail = () => {
 		<div className={classes.root}>
 			<DisplacementSphere />
 			<LogoLink />
-			<Link to="/" className={classes.backButton}>
+			<Link to="/react-portfolio" className={classes.backButton}>
 				<IconButton>
 					<ArrowBack />
 				</IconButton>

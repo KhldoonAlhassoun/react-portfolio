@@ -1,21 +1,22 @@
 .project {
 	width: 80%;
-	margin-left: 7rem;
-	margin-right: 7rem;
+	margin-left: 14rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: end;
 }
 .project-reverse {
-	width: 80%;
-	margin-left: 7rem;
-	margin-right: 7rem;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
 .__img_wrapper {
 	width: 40em;
+	align-items: center;
 }
 .__img_wrapper > img {
 	width: 100%;
@@ -28,9 +29,10 @@
 	margin-left: 1em;
 }
 .__content_wrapper {
-	width: 40%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-left: 1rem;
 }
 .title {
 	font-size: 2em;
@@ -39,8 +41,9 @@
 	margin-block-end: 0em;
 }
 .description {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	margin-bottom: 1em;
+	width: 100%;
 }
 .viewMore-btn {
 	text-decoration: none;
@@ -59,10 +62,13 @@
 @media (max-width: 1024px) {
 	.project {
 		margin-left: 3rem;
-		margin-right: 3rem;
+		margin-right: 2rem;
 	}
 	.__content_wrapper {
-		width: 50%;
+		width: 100%;
+	}
+	.viewMore-btn {
+		max-width: 100%;
 	}
 }
 @media (max-width: 768px) {
@@ -75,6 +81,11 @@
 		width: 340px;
 	}
 	.__content_wrapper {
-		width: 70%;
+		width: 100%;
+	}
+	.description {
+		font-size: 1.1rem;
+		margin-bottom: 1em;
+		width: 100%;
 	}
 }

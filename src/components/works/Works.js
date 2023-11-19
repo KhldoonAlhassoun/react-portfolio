@@ -74,7 +74,7 @@ export const Works = () => {
 								className="viewMore-btn"
 							>
 								<Typography component="span">
-									View more
+									View project
 								</Typography>
 								<i className="fas fa-arrow-right"></i>
 							</Link>
