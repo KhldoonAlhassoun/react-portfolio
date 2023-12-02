@@ -11,6 +11,7 @@ import Ledigajobb from "../../assets/recentprojects/leddigajobb.png";
 import connectFour from "../../assets/recentprojects/connectFour.png";
 import beatStar from "../../assets/recentprojects/beatStar.png";
 import meetUp from "../../assets/recentprojects/meetUp.png";
+import genAiInterviewsMockUp from "../../assets/recentprojects/genAiInterviewsMockUp.png";
 
 const useStyles = makeStyles((theme) => ({
 	main: {
@@ -24,8 +25,20 @@ export const Works = () => {
 	const classes = useStyles();
 	const [projects, setProjects] = useState([
 		{
+			id: 5,
+			title: "GenAI interviews",
+			subtitle: "Umeå University / Daresay, 2023-09-01-2024-01-09",
+			date: "2023-09-01-2024-01-09",
+			description:
+				"AI assistant for qualitative interviews as a research method. The project was developed in collaboration with Daresay. ",
+			alter: "GenAI interviews",
+			image: `${genAiInterviewsMockUp}`,
+		},
+		{
 			id: 1,
 			title: "BeatStar",
+			subtitle: "Umeå University",
+			date: "2023-09-01-2024-01-09",
 			description:
 				"One of the projects that I am proud to have worked on...",
 			alter: "BeatStar",
@@ -34,6 +47,8 @@ export const Works = () => {
 		{
 			id: 2,
 			title: "MeetUp",
+			subtitle: "Umeå University",
+			date: "2023-09-01-2024-01-09",
 			description:
 				"MeetUp, a tablet application thoughtfully designed to connect elderly individuals through tailored events and chat rooms, promoting social interaction and combatting isolation. The design journey involved extensive user research, resulting in an intuitive interface that prioritizes user needs.",
 			alter: "MeetUp",
@@ -42,6 +57,8 @@ export const Works = () => {
 		{
 			id: 3,
 			title: "Connect Four",
+			subtitle: "Umeå University",
+			date: "2023-09-01-2024-01-09",
 			description: `
 			Connect Four, a multiplayer game using Microsoft ASP.NET and SignalR for real-time challenges. Dynamic interface, strategic gameplay for all skill levels. `,
 			alter: "Connect Four",
@@ -50,6 +67,8 @@ export const Works = () => {
 		{
 			id: 4,
 			title: "Cv-creator for Ledigajobb.se",
+			subtitle: "Umeå University",
+			date: "2023-09-01-2024-01-09",
 			description: `Cv-creator for Ledigajobb.se, a demonstration of advanced design thinking and prototyping skills. Using Figma, a fully functional prototype was crafted to optimize the job application process for users, employers, and recruiters. This project showcases a user-centered design approach, addressing diverse stakeholder needs and streamlining CV creation and job submissions on Ledigajobb.se.`,
 			alter: "Cv-creator for Ledigajobb.se",
 			image: `${Ledigajobb}`,
@@ -68,6 +87,11 @@ export const Works = () => {
 							<h3 className="title">
 								<TextDecrypt text={project.title} />
 							</h3>
+							<h4>
+								<TextDecrypt text={project.subtitle} />
+								<TextDecrypt text={project.date} />
+							</h4>
+
 							<p className="description">{project.description}</p>
 							<Link
 								to={`/project/${project.id}`}
