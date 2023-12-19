@@ -5,9 +5,7 @@
 	margin-left: 1rem;
 	align-items: center;
 }
-.aboutme {
-	margin-right: 1.2rem;
-}
+
 .heading {
 	width: 30%;
 }
@@ -22,10 +20,12 @@
 }
 ._content_wrapper {
 	margin-left: 1em;
-	width: 50%;
+	width: 60%;
 }
-.aboutme3 {
-	margin-bottom: 2em;
+.aboutMe {
+	margin-bottom: 1.5em;
+	font-size: 1.1rem;
+	width: 100%;
 }
 .contact-btn {
 	text-decoration: none;

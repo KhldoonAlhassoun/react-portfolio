@@ -12,6 +12,7 @@ import connectFour from "../../assets/recentprojects/connectFour.png";
 import beatStar from "../../assets/recentprojects/beatStar.png";
 import meetUp from "../../assets/recentprojects/meetUp.png";
 import genAiInterviewsMockUp from "../../assets/recentprojects/genAiInterviewsMockUp.png";
+import konsttorget from "../../assets/recentprojects/Konsttorget.png";
 
 const useStyles = makeStyles((theme) => ({
 	main: {
@@ -27,7 +28,7 @@ export const Works = () => {
 		{
 			id: 5,
 			title: "GenAI interviews",
-			subtitle: "Umeå University / Daresay, 2023-09-01-2024-01-09",
+			subtitle: "Umeå University, Daresay",
 			date: "2023-09-01-2024-01-09",
 			description:
 				"AI assistant for qualitative interviews as a research method. The project was developed in collaboration with Daresay. ",
@@ -58,9 +59,8 @@ export const Works = () => {
 			id: 3,
 			title: "Connect Four",
 			subtitle: "Umeå University",
-			date: "2023-09-01-2024-01-09",
-			description: `
-			Connect Four, a multiplayer game using Microsoft ASP.NET and SignalR for real-time challenges. Dynamic interface, strategic gameplay for all skill levels. `,
+			date: "2022-09-01-2023-01-09",
+			description: `Connect Four, a multiplayer game using Microsoft ASP.NET and SignalR for real-time challenges. Dynamic interface, strategic gameplay for all skill levels. `,
 			alter: "Connect Four",
 			image: `${connectFour}`,
 		},
@@ -72,6 +72,15 @@ export const Works = () => {
 			description: `Cv-creator for Ledigajobb.se, a demonstration of advanced design thinking and prototyping skills. Using Figma, a fully functional prototype was crafted to optimize the job application process for users, employers, and recruiters. This project showcases a user-centered design approach, addressing diverse stakeholder needs and streamlining CV creation and job submissions on Ledigajobb.se.`,
 			alter: "Cv-creator for Ledigajobb.se",
 			image: `${Ledigajobb}`,
+		},
+		{
+			id: 5,
+			title: "Konsttorget ",
+			subtitle: "Umeå University",
+			date: "2021-09-01-2021-09-20",
+			description: `Konsttorget is a groundbreaking online platform designed to transform the art market landscape. Born out of a deep understanding of the challenges faced by artists in selling their work and the evolving needs of art enthusiasts, Konsttorget serves as a dynamic marketplace connecting talented artists with potential buyers. The project aims to bridge the gap in the art industry, providing a seamless platform for the sale and purchase of artworks.`,
+			alter: "Cv-creator for Ledigajobb.se",
+			image: `${konsttorget}`,
 		},
 	]);
 
